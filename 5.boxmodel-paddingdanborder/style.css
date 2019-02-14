@@ -1,0 +1,32 @@
+ /*
+ -margin= area transparan di sekitar kota(diluar border),
+-padding=area transparan didalam kotak (antara content dan border),
+-boreder=batas disekeliling content dan padding,
+-content = konten sebenarnya didalam box, bisa berupa teks atau gambar.
+*/
+	/*nilai border ada 3 tebal ukuran border, style, warna border*/
+	/*style nya terdiri dari solid, dotted(supaya titik2), dashed(borer garis2), double*/
+ div{
+ 	width: 600px;
+ 	margin: 10px auto;
+	/*box-sizing berguna untuk mengatur dimensi kotak*/
+	box-sizing: border-box;
+ }
+
+ .satu{
+	/*perhitungan untuk agar sama lebarnya = 600-[2*10]-[2*5]=570px
+	width:570px;*/
+ 	background-color: royalblue;
+ 	padding: 10px;
+ 	border: 5px solid red;
+ }	
+
+.dua{
+	/*perhitungan untuk agar sama lebarnya = 600-[2*30]-[2*10]=520px
+	width: 520px;*/
+	background-color: lightgreen;
+	padding: 30px;
+	border: 10px dashed orange ;
+}
+
+

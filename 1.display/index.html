@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CSS Display</title>
+	<style type="text/css">
+	/*display = setipa tag pada html berada didalam kotak. prperti display pada css mengatur perilaku dari kota tersebut. dan display ada 4 dibawah ini:  */
+		/*inline-block berguna untuk mengatur tinggi atau lebar dari suatu link pengaturannya secaa manual*/
+		/*block itu elementnya kebawah/vertikal*/
+		/*inline itu elementnya membuat horizontal*/
+		/*none itu menghilangkan suatu elemet seperti gambar*/
+
+		a{
+			background-color: pink;
+			width: 100px;
+			height: 100px;
+			display:inline-block;
+		}
+		img{
+			width: 200px; height: 200px;
+		}
+		.main{
+			width: 600px;
+			background-color: lightgreen;
+		}
+		.main h2{
+			background-color: pink;
+		}
+	</style>
+</head>
+<body>
+	<div class="header">
+	<h1>Selamat Datang di Website Kami</h1>	
+	</div>
+	<div class="navigasi">
+		<h2>daftar link</h2>
+		<a href="#">link 1</a>
+		<a href="#">link 2</a>
+		<a href="#">link 3</a>
+		<a href="#">link 4</a>
+		<a href="#">link 5</a>
+	</div> 
+	<div class="main">
+		<h2>Judul Artikel</h2>
+		<img src="image/69366.png">
+		<p>Lorem ipsum dolor sit amet, <span>consectetur adipisicing elit.</span> Deleniti eaque, ipsa asperiores suscipit dolor in quis nulla minima facere iure!</p>
+		<br>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro est modi nemo error totam quae, sequi id alias tempore, atque.</p>
+		<br>
+	</div>
+	<div class="copyright">
+		<p>Copy Right 2018. RioProject</p>
+	</div>	
+	</body>
+</html>

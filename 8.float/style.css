@@ -1,0 +1,23 @@
+/*kapan properti float digunakan = 
+-text wrapping= membuat teks mengeliling gambar/elemen lain
+-image gallery = membuat serangkaian gambar menjadi galeri
+-multi-column layout = membuat halaman memiliki beberapa kolom
+dll . */
+.container{
+	width: 600px;
+	border: 1px solid black;
+	margin: auto;
+	padding: 5px;
+	/*overflow: auto;*/
+}
+
+img {
+	float: right;
+	margin: 10px;
+}
+/*cara menghentikan float pakai overflow = menyesuaikan tinggi dari kontennya*/
+/*penting ! gunakan clear fungsinya untuk menghentikan float value left,right,both dengan cara div kosong*/
+.clear{
+	clear: left;
+	/*sesuai float img*/
+}

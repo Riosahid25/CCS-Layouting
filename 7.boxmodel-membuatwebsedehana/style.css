@@ -1,0 +1,143 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*style saya*/
+body{
+	/*font standar = ukurn font/jarak antara barisnya/ type huruf*/
+	font: 16px/28px arial, sans-serif;
+	background-color: #bfbcbc;
+	color: #716262;
+	background-image: url(image/gaming-pattern.png);
+}
+.container{
+	width: 800px;
+	margin: auto;
+	background-color: #ffffff;
+}
+
+/*mengatur ukuran headernya*/
+.header{
+	padding: 20px;
+	padding-bottom: 10px;
+}
+
+/*elemen class judul yang ada di header baca kiri ke kanan*/
+.header .judul{
+font-size: 40px;
+font-weight: bold;
+}
+
+/*membuat menjadi baris horizontal*/
+.header ul li{
+	display: inline-block;
+	margin-top: 20px;
+	margin-right: 10px;
+}
+
+/*menghilangkan garis bawah link dan mengubah warna*/
+.header a{
+text-decoration: none;
+color: salmon;
+padding: 3px;	
+}
+
+/*penanda ketika mouse berada diarea link*/
+.header a:hover{
+background-color: lightskyblue;
+color: white;
+}
+
+.hero {
+	height:300px;
+	background-image: url(image/hero.png);
+	background-size: cover;
+	 /*background-position = o pertama mengaturhorizontal & kedua mengatur vertikal*/
+	 background-position: 0 -220px;
+	 border-bottom: 5px solid lightskyblue;
+	 border-top: 5px solid salmon;
+}
+
+/*edit content class*/
+.conten {
+	padding: 20px;
+}
+
+/*edit content judul artikel*/
+.conten h2 {
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.conten .penulis {
+	font-size: 13px;
+	margin-top: -5px;
+}
+
+.conten .penulis a {
+	color: salmon;
+	text-decoration: none;
+}
+
+.conten p {
+	margin-bottom: 20px;
+	font-size: 14px;
+	text-indent: 12;
+	text-align: justify;
+}
+
+.footer {
+	background-color: #333;
+	padding: 25px;
+}
+
+.footer .copy{
+	color: #eaeaea;
+	text-align: center;
+
+}

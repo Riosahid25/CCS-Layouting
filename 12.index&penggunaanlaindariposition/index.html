@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>latihan z-index</title>
+    <style>
+        div {
+            width: 200px;
+            height: 200px;
+            position: absolute;
+        }
+
+        .satu {
+            background-color: salmon;
+            z-index: 1;
+        }
+
+        .dua {
+            background-color: lightgreen;
+            top: 100px;
+            left: 100px;
+            /* digunakan untuk mengatur tumpukan elemen yang non static/elemennya paling depan 1-seterusnya atau paling belakang mengggunakan -999*/
+            z-index: 2;
+        }
+
+        .tiga {
+            background-color: royalblue;
+            top: 200px;
+            left: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="satu"></div>
+    <div class="dua"></div>
+    <div class="tiga"></div>
+</body>
+
+</html>

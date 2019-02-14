@@ -1,0 +1,12 @@
+/*css reset = teknik yg dapat membuat kita mengatur ulang nilai default dari elemen2 yg ada di html */
+/*selector universal dengan tanda (*) */
+/*atau bisa kunjungi css reset mayerweb untuk menggunakan reset*/
+*{
+	margin: 0;
+	padding: 0;
+}
+div{
+	width: 200px;
+	height: 200px;
+	background-color: black;
+}
